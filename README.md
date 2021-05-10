@@ -18,3 +18,6 @@ The added Python script tag has further settings to control the rig:
 ### Notes: 
 * the Bend Deformer 'Angle' setting doesn't work with this rig, so the applied Python code sets it to 0.
 * because Bend Deformers bend everything forwards of the bend there's a limit to how flexible you can make your bend chain - eg if the first bend is at 180 degrees, subsequent bends are likely to unintentionally bend geometry that was behind the first bend. For these cases you'll need to use Fields to limit the effect.
+
+### Licence
+Modified BSD - available in the .py file
